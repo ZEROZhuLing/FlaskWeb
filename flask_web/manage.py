@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import os
-from app import create_app, db
-from app.models import User, Role
+from app import create_app,db
+from app.models import User,Role
 from flask_script import Manager, Shell
 from flask_migrate import Migrate, MigrateCommand
 
@@ -25,4 +25,5 @@ def test():
 
 
 if __name__ == '__main__':
-    manager.run()
+    app.run(debug=True, host='0.0.0.0',port=5000)
+    # manager.run()
