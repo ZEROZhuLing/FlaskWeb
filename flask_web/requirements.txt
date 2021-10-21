@@ -4,7 +4,7 @@ alembic==0.9.6
 APScheduler==3.4.0
 astroid==1.5.3
 async-timeout==2.0.0
-Babel==2.5.1
+Babel==2.9.1
 backports-abc==0.5
 backports.ssl-match-hostname==3.5.0.1
 beautifulsoup4==4.6.0
